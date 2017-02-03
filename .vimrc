@@ -1,10 +1,14 @@
 " Basic
 syntax on                       " syntax highlighting on
+execute pathogen#infect()
 
 " General
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" Set <ESC> to jk
+inoremap jk <ESC>
 
 hi Comment ctermfg=LightBlue
 
